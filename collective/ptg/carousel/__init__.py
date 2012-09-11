@@ -153,7 +153,7 @@ jQuery(document).ready(function() {
     width: %(boxwidth)ipx;
 }
 
-.wrap {
+#wrap {
     width: %(carousel_width)ipx
 
 .imagebox:hover {

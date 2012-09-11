@@ -155,6 +155,7 @@ jQuery(document).ready(function() {
 
 #wrap {
     width: %(carousel_width)ipx
+}
 
 .imagebox:hover {
     opcaity: %(overlay_opacity)s);

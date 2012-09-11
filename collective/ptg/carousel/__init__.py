@@ -9,16 +9,21 @@ from zope.i18nmessageid import MessageFactory
 _ = MessageFactory('collective.ptg.carousel')
 
 class ICarouselDisplaySettings(IBaseSettings):
+    carousel_width = schema.Int(
+        title=_(u"label_carousel_imagewidth",
+            default=u"Width of carousel"),
+        default=800,
+        min=50)
     carousel_imagewidth = schema.Int(
         title=_(u"label_carousel_imagewidth",
-            default=u"Width of (each) image"),
+            default=u"Width of (each) image (box)"),
         default=400,
-        min=50)
+        min=16)
     carousel_imageheight = schema.Int(
         title=_(u"label_carousel_imageheight",
             default=u"Height of (each) image"),
         default=260,
-        min=50)
+        min=16)
     carousel_use_icons = schema.Bool(
         title=_(u"label_carousel_use_icons",
             default=u"Use Thumbnail size instead of Size"),
@@ -148,7 +153,10 @@ jQuery(document).ready(function() {
     width: %(boxwidth)ipx;
 }
 
-.ximagebox:hover {
+.wrap {
+    width: %(carousel_width)ipx
+
+.imagebox:hover {
     opcaity: %(overlay_opacity)s);
 }
 
@@ -158,6 +166,7 @@ jQuery(document).ready(function() {
         'boxheight': self.settings.carousel_imageheight,
         'boxwidth': self.settings.carousel_imagewidth,
         'overlay_opacity': self.settings.carousel_overlay_opacity,
+        'carousel_width' : self.settings.carousel_width,
         'style': style
        }
 CarouselSettings = createSettingsFactory(CarouselDisplayType.schema)

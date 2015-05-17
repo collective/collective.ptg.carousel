@@ -2,6 +2,13 @@
 Changelog
 =========
 
+0.3 (unreleased)
+----------------
+
+- Added Spanish translation [macagua]
+
+- Added support for translations [macagua]
+
 
 0.2 (2012-09-11)
 -------------------

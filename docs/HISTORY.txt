@@ -5,6 +5,10 @@ Changelog
 0.3 (unreleased)
 ----------------
 
+- Updated information about this package [macagua]
+
+- Added more strings classifiers items for this package [macagua]
+
 - Added Spanish translation [macagua]
 
 - Added support for translations [macagua]

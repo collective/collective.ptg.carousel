@@ -75,8 +75,9 @@ the gallery list and configure the parameters for this gallery locally.
 Contribute
 ----------
 
-- Issue Tracker: github.com/collective/collective.ptg.carousel/issues
-- Source Code: github.com/collective/collective.ptg.carousel
+- Issue Tracker: http://github.com/collective/collective.ptg.carousel/issues
+- Source Code: http://github.com/collective/collective.ptg.carousel
+- PyPI: http://pypi.python.org/pypi/collective.ptg.carousel
 
 License
 -------

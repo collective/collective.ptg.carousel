@@ -5,7 +5,7 @@ This packages support a carousel display type for `collective.plonetruegallery <
 
 You should see:
 
-.. figure:: cptg_carousel_00.png
+.. figure:: https://raw.githubusercontent.com/collective/collective.ptg.carousel/master/cptg_carousel_00.png
   :align: center
   :alt: collective.ptg.carousel preview
 
@@ -65,7 +65,7 @@ Or you can go to ``Your Folder / Collection --> Display --> Gallery View``, then
 ``Your Folder / Collection --> Gallery Settings`` tab, choose the ``carousel`` option from 
 the gallery list and configure the parameters for this gallery locally.
 
-.. figure:: cptg_carousel_01.png
+.. figure:: https://raw.githubusercontent.com/collective/collective.ptg.carousel/master/cptg_carousel_01.png
   :align: center
   :alt: Carousel control panel
 

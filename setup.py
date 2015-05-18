@@ -11,8 +11,18 @@ setup(name='collective.ptg.carousel',
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Environment :: Web Environment",
         "Framework :: Plone",
+        "Framework :: Zope2",
+        "Framework :: Zope3",
+        "Intended Audience :: Developers",
+        "Intended Audience :: End Users/Desktop",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Operating System :: OS Independent",
         "Programming Language :: Python",
+        "Topic :: Internet",
+        "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='plonetruegallery gallery plone addon carousel',
       author='Espen Moe-Nilssen',

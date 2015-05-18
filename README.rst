@@ -1,7 +1,7 @@
 collective.ptg.carousel
 =======================
 
-This packages support a carousel display type for collective.plonetruegallery.
+This packages support a carousel display type for `collective.plonetruegallery <https://plone.org/products/plone-true-gallery>`_.
 
 You should see:
 
@@ -77,6 +77,7 @@ Contribute
 
 - Issue Tracker: http://github.com/collective/collective.ptg.carousel/issues
 - Source Code: http://github.com/collective/collective.ptg.carousel
+- Documentation: https://plone.org/products/plone-true-gallery/documentation
 - PyPI: http://pypi.python.org/pypi/collective.ptg.carousel
 
 License

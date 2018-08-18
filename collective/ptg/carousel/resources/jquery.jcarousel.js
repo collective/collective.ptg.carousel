@@ -191,7 +191,7 @@
             this.options.initCallback(this, 'init');
         }
 
-        if (!windowLoaded && $.browser.safari) {
+        if (!windowLoaded && /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
             this.buttons(false, false);
             $(window).bind('load.jcarousel', function() { self.setup(); });
         } else {

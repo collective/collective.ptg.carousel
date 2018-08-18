@@ -5,6 +5,8 @@ Changelog
 0.3 (unreleased)
 ----------------
 
+- Fixed Uncaught TypeError: Cannot read property 'safari' of undefined [macagua]
+
 - Updated information about this package [macagua]
 
 - Added more strings classifiers items for this package [macagua]

@@ -6,7 +6,7 @@
 
     <i18n:registerTranslations directory="locales" />
 
-   <browser:resourceDirectory
+    <browser:resourceDirectory
         name="ptg.carousel"
         directory="resources"
         />

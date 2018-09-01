@@ -67,7 +67,7 @@ class ICarouselDisplaySettings(IBaseSettings):
         ]))
     carousel_toppadding = schema.TextLine(
         title=_(u"label_carousel_toppadding",
-            default=u"Padding above imagetitle"),
+            default=u"Padding above image title"),
         default=u"90px")
     carousel_style = schema.Choice(
         title=_(u"label_carousel_style",

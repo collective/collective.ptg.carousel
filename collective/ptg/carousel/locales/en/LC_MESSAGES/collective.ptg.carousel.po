@@ -109,7 +109,7 @@ msgstr ""
 msgid "label_carousel_style_no"
 msgstr ""
 
-#. Default: "Padding above imagetitle"
+#. Default: "Padding above image title"
 #: ./__init__.py:69
 msgid "label_carousel_toppadding"
 msgstr ""

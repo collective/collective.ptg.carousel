@@ -5,26 +5,32 @@ version = '0.2.2'
 
 setup(name='collective.ptg.carousel',
       version=version,
-      description="carousel gallery type for plonetruegallery",
+      description="Carousel Gallery Display Type extension for PloneTrueGallery package",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
-      # http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      # https://pypi.org/pypi?:action=list_classifiers
       classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Plone",
+        "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.2",
+        "Framework :: Plone :: 4.3",
+        "Framework :: Plone :: Theme",
         "Framework :: Zope2",
         "Framework :: Zope3",
         "Intended Audience :: Developers",
         "Intended Audience :: End Users/Desktop",
-        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
+        "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
         "Topic :: Internet",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='plonetruegallery gallery plone addon carousel',
+      keywords='web zope plone cms plonetruegallery gallery plone addon carousel',
       author='Espen Moe-Nilssen',
       author_email='espen@medialog.no',
       url='https://github.com/collective/collective.ptg.carousel',
